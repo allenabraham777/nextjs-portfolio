@@ -1,15 +1,19 @@
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
-import socials from "../../config/socials.json";
 import { SocialIcon } from "react-social-icons";
 import classnames from "classnames";
 
 type Props = {
   handleNav: () => void;
   nav: boolean;
+  socials: {
+    name: string;
+    link: string;
+  }[];
+  dark: boolean;
 };
 
-const Menu = ({ handleNav, nav }: Props) => {
+const Menu = ({ handleNav, nav, socials, dark }: Props) => {
   return (
     <div
       className={classnames("md:hidden", {
@@ -19,7 +23,7 @@ const Menu = ({ handleNav, nav }: Props) => {
     >
       <div
         className={classnames(
-          "fixed top-0 h-screen bg-white p-10 ease-in duration-500 z-200",
+          "fixed top-0 h-screen bg-white dark:bg-gray-900 p-10 ease-in duration-500 z-200",
           {
             "left-0 width-[75%] sm:w-[60%] md:w-[45%]": nav,
             "left-[-100%]": !nav,
@@ -32,14 +36,14 @@ const Menu = ({ handleNav, nav }: Props) => {
               <h1 className="text-xl">ALLEN K ABRAHAM</h1>
             </div>
             <div
-              className="rounded-full shadow-lg border border-gray-100 p-3 cursor-pointer"
+              className="rounded-full shadow-lg border border-gray-100 p-2 cursor-pointer"
               onClick={handleNav}
             >
-              <AiOutlineClose size={25} />
+              <AiOutlineClose size={15} />
             </div>
           </div>
           <div className="border-b border-gray-300 my-4">
-            <p className="py-4">Let's explore more...</p>
+            <p className="py-4">Let&apos;s explore more...</p>
           </div>
         </div>
         <div className="py-4 flex flex-col">
@@ -48,21 +52,15 @@ const Menu = ({ handleNav, nav }: Props) => {
               <Link href="/">Home</Link>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/">About</Link>
+              <Link href="/#projects">Projects</Link>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/">Skills</Link>
-            </li>
-            <li className="py-4 text-sm">
-              <Link href="/">Projects</Link>
-            </li>
-            <li className="py-4 text-sm">
-              <Link href="/">Contact</Link>
+              <Link href="/#skills">Skills</Link>
             </li>
           </ul>
           <div className="pt-40">
-            <p className="uppercase tracking-widest text-purple-600">
-              Let's Connect
+            <p className="uppercase tracking-widest font-bold text-purple-600">
+              Let&apos;s Connect
             </p>
             <div className="flex items-center gap-5 my-4 w-full">
               {socials.map((social) => (
@@ -74,7 +72,7 @@ const Menu = ({ handleNav, nav }: Props) => {
                     url={social.link}
                     network={social.name}
                     label={social.name}
-                    fgColor="black"
+                    fgColor={dark ? "white" : "black"}
                     bgColor="transparent"
                     style={{ width: "3rem", height: "3rem" }}
                   />
