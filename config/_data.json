@@ -1,0 +1,160 @@
+{
+  "socials": [
+    {
+      "name": "twitter",
+      "link": "https://www.twitter.com/allenabraham777"
+    },
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/allenabraham777"
+    },
+    {
+      "name": "github",
+      "link": "https://www.github.com/allenabraham777"
+    },
+    {
+      "name": "mailto",
+      "link": "mailto:allen@theabstraction.co"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Jot In It",
+      "thumbnail": "jotinit",
+      "description": "A chat app with live notification and update features made using MERN stack and socket.io.",
+      "demo": "https://jotinit.tk",
+      "source": "https://github.com/allenabraham777/jot-in-it"
+    },
+    {
+      "name": "Chipit",
+      "thumbnail": "chipit",
+      "description": "A simple webapp to compress your urls. Made using MERN stack.",
+      "demo": "https://client.chipit.tk",
+      "source": "https://github.com/allenabraham777/url-tinify-server"
+    },
+    {
+      "name": "Tiny Vid",
+      "thumbnail": "tinyvid",
+      "description": "A  TikTok clone made using TypeScript, NextJS, Graphql, Sanity.io and Tailwind",
+      "demo": "https://tiny-vid.vercel.app",
+      "source": "https://github.com/allenabraham777/tiny-vid"
+    },
+    {
+      "name": "NFT Marketplace",
+      "thumbnail": "nftmarket",
+      "description": "A place to publish and sell your NFTs. Made using TS, NextJS, Graphql, Ether.js, Hardhat and Tailwind",
+      "demo": "https://nft-market-psi-six.vercel.app",
+      "source": "https://github.com/allenabraham777/nft-market"
+    },
+    {
+      "name": "Reddit Clone",
+      "thumbnail": "rdnxt",
+      "description": "A clone of reddit.com made using TypeScript, NextJS, Graphql, Supabase(PostgreSQL) and Tailwind",
+      "demo": "https://rd-nxt.vercel.app/",
+      "source": "https://github.com/allenabraham777/rd-nxt"
+    },
+    {
+      "name": "React Rating",
+      "thumbnail": "rating",
+      "description": "A reusable star rating component that could be used as a component any React application",
+      "demo": "https://react-star-rating-component-9n4uotoxu.vercel.app",
+      "source": "https://github.com/allenabraham777/react-star-rating-component"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "html"
+    },
+    {
+      "name": "CSS",
+      "icon": "css"
+    },
+    {
+      "name": "Javascript",
+      "icon": "js"
+    },
+    {
+      "name": "NodeJS",
+      "icon": "node"
+    },
+    {
+      "name": "Typescript",
+      "icon": "ts"
+    },
+    {
+      "name": "React",
+      "icon": "react"
+    },
+    {
+      "name": "Vue",
+      "icon": "vue"
+    },
+    {
+      "name": "NextJS",
+      "icon": "next"
+    },
+    {
+      "name": "GatsbyJS",
+      "icon": "gatsby"
+    },
+    {
+      "name": "ExpressJS",
+      "icon": "express"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "tailwind"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongo"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "psql"
+    },
+    {
+      "name": "GraphQL",
+      "icon": "gql"
+    },
+    {
+      "name": "Redis",
+      "icon": "redis"
+    },
+    {
+      "name": "Webpack",
+      "icon": "webpack"
+    }
+  ],
+  "experiences": [
+    {
+      "designation": "Software Engineer",
+      "company": "RetailMeNot Inc.",
+      "logo": "retailmenot",
+      "from": "Feb 2022",
+      "to": "Present",
+      "techStack": ["vue", "js", "ts", "express"],
+      "description": [
+        "Updated and maintained the browser extension.",
+        "Maintained the landing page.",
+        "Worked in developing the cashback identifier for the merchants.",
+        "Worked in implementing few marketing related UIs."
+      ]
+    },
+    {
+      "designation": "Product Developer",
+      "company": "SurveySparrow Pvt. Ltd.",
+      "logo": "surveysparrow",
+      "from": "Aug 2020",
+      "to": "Feb 2022",
+      "techStack": ["react", "hapi", "webpack", "psql", "redis"],
+      "description": [
+        "Updated and maintained the survey building platform.",
+        "Revamped the whole email share system for the surveys.",
+        "Worked on production build optimizations.",
+        "Implemenmted quota management system for the survey responses."
+      ]
+    }
+  ]
+}
