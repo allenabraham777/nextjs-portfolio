@@ -9,9 +9,9 @@ type Props = {
 
 const Skills = ({ skills }: Props) => {
   return (
-    <div className="w-full lg:h-screen p-4 dark:bg-gray-900" id="skills">
+    <div className="w-full lg:h-screen p-4 dark:bg-gray-900">
       <div className="max-w-5xl mx-auto flex flex-col justify-center h-full">
-        <h2 className="text-xl tracking-widest uppercase text-[#3944F7] font-bold">
+        <h2 className="text-xl tracking-widest uppercase text-[#1C8D73] dark:text-[#22CB5C] font-bold">
           Skills
         </h2>
         <h1 className="text-4xl tracking-widest uppercase text-gray-600 dark:text-gray-300">

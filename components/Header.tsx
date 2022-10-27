@@ -26,6 +26,8 @@ const Header = ({ socials, dark, setDark }: Props) => {
         "preferedColorScheme",
         JSON.stringify({ dark: !prevdark })
       );
+      const html = document.querySelector("html") as HTMLElement;
+      html.className = !prevdark ? "dark" : "";
       return !prevdark;
     });
   };
@@ -39,10 +41,13 @@ const Header = ({ socials, dark, setDark }: Props) => {
               <Link href="/">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+              <Link href="/#experience">Experience</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#skills">Skills</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#projects">Projects</Link>
             </li>
           </ul>
         </div>

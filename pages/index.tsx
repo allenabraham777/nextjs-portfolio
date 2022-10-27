@@ -6,6 +6,8 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import data from "../config/_data.json";
+import Experience from "../components/Experience";
+import Socials from "../components/Socials";
 
 export default function Home() {
   const [dark, setDark] = useState(false);
@@ -21,12 +23,17 @@ export default function Home() {
       const { dark: _dark } = await JSON.parse(savedMode);
       isDarkMode = _dark;
     }
+    const html = document.querySelector("html") as HTMLElement;
+    html.className = isDarkMode ? "dark" : "";
     setDark(isDarkMode);
   };
 
   return (
     <div
-      className={classnames("overflow-hidden", { dark, "text-white": dark })}
+      className={classnames("overflow-hidden snap-y snap-mandatory", {
+        dark,
+        "text-white": dark,
+      })}
     >
       <Head>
         <title>Allen K Abraham</title>
@@ -35,19 +42,28 @@ export default function Home() {
           content="I'm a fullstack developer with a wide range of experience in javascript and related technologies."
         />
       </Head>
-      {/* Header */}
+
       <Header socials={data.socials} dark={dark} setDark={setDark} />
-      {/* Hero */}
-      <section id="hero">
-        <Hero socials={data.socials} />
+
+      <section id="hero" className="snap-start">
+        <Hero socials={data.socials} dark={dark} />
       </section>
-      {/* About */}
-      {/* Experience */}
-      {/* Projects */}
-      <Projects projects={data.projects} />
-      {/* Skills */}
-      <Skills skills={data.skills} />
-      {/* Socials */}
+
+      <section id="experience" className="snap-center">
+        <Experience experiences={data.experiences} />
+      </section>
+
+      <section id="skills" className="snap-start">
+        <Skills skills={data.skills} />
+      </section>
+
+      <section id="projects" className="snap-start">
+        <Projects projects={data.projects} />
+      </section>
+
+      <section id="connect" className="snap-center">
+        <Socials socials={data.socials} dark={dark} />
+      </section>
     </div>
   );
 }

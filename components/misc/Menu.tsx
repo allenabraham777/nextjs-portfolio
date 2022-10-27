@@ -26,14 +26,16 @@ const Menu = ({ handleNav, nav, socials, dark }: Props) => {
           "fixed top-0 h-screen bg-white dark:bg-gray-900 p-10 ease-in duration-500 z-200",
           {
             "left-0 width-[75%] sm:w-[60%] md:w-[45%]": nav,
-            "left-[-100%]": !nav,
+            "left-[-200%]": !nav,
           }
         )}
       >
         <div>
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-xl">ALLEN K ABRAHAM</h1>
+              <h1 className="text-xl font-bold text-[#1C8D73] dark:text-[#22CB5C]">
+                ALLEN K ABRAHAM
+              </h1>
             </div>
             <div
               className="rounded-full shadow-lg border border-gray-100 p-2 cursor-pointer"
@@ -52,14 +54,17 @@ const Menu = ({ handleNav, nav, socials, dark }: Props) => {
               <Link href="/">Home</Link>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/#projects">Projects</Link>
+              <Link href="/#experience">Experience</Link>
             </li>
             <li className="py-4 text-sm">
               <Link href="/#skills">Skills</Link>
             </li>
+            <li className="py-4 text-sm">
+              <Link href="/#projects">Projects</Link>
+            </li>
           </ul>
           <div className="pt-40">
-            <p className="uppercase tracking-widest font-bold text-purple-600">
+            <p className="uppercase tracking-widest font-bold text-[#1C8D73] dark:text-[#22CB5C]">
               Let&apos;s Connect
             </p>
             <div className="flex items-center gap-5 my-4 w-full">

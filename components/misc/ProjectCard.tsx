@@ -13,7 +13,7 @@ type Props = {
 
 const ProjectCard = ({ project }: Props) => {
   return (
-    <div className="relative cursor-pointer flex items-center justify-center h-auto w-full border border-gray-100 shadow-xl shadow-gray-400 dark:shadow-gray-800 dark:shadow-md rounded-xl p-4 group hover:bg-gradient-to-r from-[#3944F7] to-[#12B0E8]">
+    <div className="relative cursor-pointer flex items-center justify-center h-auto w-full border border-gray-100 shadow-xl shadow-gray-400 dark:shadow-gray-800 dark:shadow-md rounded-xl p-4 group hover:bg-gradient-to-r from-[#1C8D73] dark:text-[#22CB5C] to-[#12B0E8]">
       <Image
         src={`/static/projects/${project.thumbnail}.png`}
         alt={project.name}

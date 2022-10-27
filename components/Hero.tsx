@@ -2,18 +2,19 @@ import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 
 type Props = {
+  dark: boolean;
   socials: {
     name: string;
     link: string;
   }[];
 };
 
-const Hero = ({ socials }: Props) => {
+const Hero = ({ socials, dark }: Props) => {
   return (
     <div className="w-full h-screen text-center dark:bg-gray-900">
       <div className="max-w-5xl w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="pt-4 text-[#3944F7] text-5xl font-bold">
+          <h1 className="pt-4 text-[#1C8D73] dark:text-[#22CB5C] text-5xl font-bold">
             Allen K Abraham
           </h1>
           <h1 className="text-gray-700 py-2 text-3xl font-bold dark:text-gray-200">
@@ -32,7 +33,7 @@ const Hero = ({ socials }: Props) => {
                   url={social.link}
                   network={social.name}
                   label={social.name}
-                  fgColor="#3944F7"
+                  fgColor={dark ? "#22CB5C" : "#1C8D73"}
                   bgColor="transparent"
                   style={{ width: "3rem", height: "3rem" }}
                 />
