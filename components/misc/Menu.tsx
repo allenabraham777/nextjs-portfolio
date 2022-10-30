@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 import { AiOutlineClose } from "react-icons/ai";
 import { SocialIcon } from "react-social-icons";
 import classnames from "classnames";
@@ -54,13 +55,19 @@ const Menu = ({ handleNav, nav, socials, dark }: Props) => {
               <Link href="/">Home</Link>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/#experience">Experience</Link>
+              <ScrollLink onClick={handleNav} to="experience">
+                Experience
+              </ScrollLink>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/#skills">Skills</Link>
+              <ScrollLink onClick={handleNav} to="skills">
+                Skills
+              </ScrollLink>
             </li>
             <li className="py-4 text-sm">
-              <Link href="/#projects">Projects</Link>
+              <ScrollLink onClick={handleNav} to="projects">
+                Projects
+              </ScrollLink>
             </li>
           </ul>
           <div className="pt-40">

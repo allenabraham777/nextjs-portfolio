@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
 import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Menu from "./misc/Menu";
@@ -37,17 +38,17 @@ const Header = ({ socials, dark, setDark }: Props) => {
       <div className="flex justify-end max-w-5xl h-full mx-auto items-center">
         <div>
           <ul className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#experience">Experience</Link>
+            <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
+              <ScrollLink to="experience">Experience</ScrollLink>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#skills">Skills</Link>
+            <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
+              <ScrollLink to="skills">Skills</ScrollLink>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+            <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
+              <ScrollLink to="projects">Projects</ScrollLink>
             </li>
           </ul>
         </div>

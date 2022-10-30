@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply scroll-smooth scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#1C8D73] dark:scrollbar-thumb-[#22CB5C];
   }
