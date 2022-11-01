@@ -13,7 +13,7 @@ type Props = {
 
 const ProjectCard = ({ project }: Props) => {
   return (
-    <div className="relative cursor-pointer flex items-center justify-center h-auto w-full border border-gray-100 shadow-xl shadow-gray-400 dark:shadow-gray-800 dark:shadow-md rounded-xl p-4 group hover:bg-gradient-to-r from-[#1C8D73] dark:text-[#22CB5C] to-[#12B0E8]">
+    <div className="relative overflow-hidden cursor-pointer flex items-center justify-center h-auto w-full border border-gray-200 shadow-lg shadow-gray-400 dark:shadow-gray-800 dark:shadow-md rounded-xl p-4 group hover:bg-gradient-to-r from-cyan-500 to-blue-500">
       <Image
         src={`/static/projects/${project.thumbnail}.png`}
         alt={project.name}
@@ -21,14 +21,20 @@ const ProjectCard = ({ project }: Props) => {
         height={1000}
         className="w-[100%] rounded-xl group-hover:opacity-10 border border-gray-200"
       />
+      <h3 className="absolute bg-gradient-to-r from-cyan-500 to-blue-500 w-[100%] py-2 text-center bottom-[0] left-[50%] translate-x-[-50%] group-hover:opacity-0 text-xl tracking-wider font-bold text-white uppercase">
+        {project.name}
+      </h3>
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80%]">
-        <h3 className="text-xl tracking-wider font-bold text-white uppercase border-b border-b-white">
-          {project.name}
-        </h3>
-        <p className="text-justify text-sm py-4 text-white">
-          {project.description}
-        </p>
-        <div className="flex justify-between items-center mt-4">
+        <p
+          className="text-justify text-sm md:text-lg py-4 text-white leading-7 md:leading-10"
+          dangerouslySetInnerHTML={{
+            __html: project.description.replaceAll(
+              "<b>",
+              '<b class="border border-1 border-white bg-teal-700 text-white px-1 py-[2px] rounded-[3px]">'
+            ),
+          }}
+        />
+        <div className="flex justify-between items-center sm:mt-4">
           <Link
             href={project.demo}
             className="text-center px-3 py-1 rounded-md bg-white text-gray-700 font-semibold text-md cursor-pointer"

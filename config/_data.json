@@ -21,42 +21,42 @@
     {
       "name": "Jot In It",
       "thumbnail": "jotinit",
-      "description": "A chat app with live notification and update features made using MERN stack and socket.io.",
+      "description": "A chat app with live notification and update features made using <b>React</b> <b>Express</b> <b>MongoDB</b> and <b>socket.io</b>.",
       "demo": "https://jotinit.tk",
       "source": "https://github.com/allenabraham777/jot-in-it"
     },
     {
       "name": "Chipit",
       "thumbnail": "chipit",
-      "description": "A simple webapp to compress your urls. Made using MERN stack.",
+      "description": "A simple webapp to compress your urls. Made using <b>React</b> <b>Express</b> and <b>MongoDB</b>.",
       "demo": "https://client.chipit.tk",
       "source": "https://github.com/allenabraham777/url-tinify-server"
     },
     {
       "name": "Tiny Vid",
       "thumbnail": "tinyvid",
-      "description": "A  TikTok clone made using TypeScript, NextJS, Graphql, Sanity.io and Tailwind",
+      "description": "A simple webapp to post and share short videos, comment on it and like it. Made using <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> <b>Sanity.io</b> and <b>Tailwind</b>",
       "demo": "https://tiny-vid.vercel.app",
       "source": "https://github.com/allenabraham777/tiny-vid"
     },
     {
       "name": "NFT Marketplace",
       "thumbnail": "nftmarket",
-      "description": "A place to publish and sell your NFTs. Made using TS, NextJS, Graphql, Ether.js, Hardhat and Tailwind",
+      "description": "A place to publish and sell your NFTs. Made using <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> <b>Ether.js</b> <b>Hardhat</b> and <b>Tailwind</b>",
       "demo": "https://nft-market-psi-six.vercel.app",
       "source": "https://github.com/allenabraham777/nft-market"
     },
     {
-      "name": "Reddit Clone",
+      "name": "Post It",
       "thumbnail": "rdnxt",
-      "description": "A clone of reddit.com made using TypeScript, NextJS, Graphql, Supabase(PostgreSQL) and Tailwind",
+      "description": "A simple web app to post upvote and comment content. Made using <b>Supabase (PostgreSQL)</b> <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> and <b>Tailwind</b>",
       "demo": "https://rd-nxt.vercel.app/",
       "source": "https://github.com/allenabraham777/rd-nxt"
     },
     {
       "name": "React Rating",
       "thumbnail": "rating",
-      "description": "A reusable star rating component that could be used as a component any React application",
+      "description": "A reusable star rating component made using <b>React</b> that could be used as a component in any React application",
       "demo": "https://react-star-rating-component-9n4uotoxu.vercel.app",
       "source": "https://github.com/allenabraham777/react-star-rating-component"
     }
