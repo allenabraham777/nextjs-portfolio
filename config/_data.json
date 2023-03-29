@@ -129,6 +129,20 @@
   ],
   "experiences": [
     {
+      "designation": "Product Engineer",
+      "company": "TheMathCompany Inc.",
+      "logo": "themathcompany",
+      "from": "Jan 2023",
+      "to": "Present",
+      "techStack": ["react", "js", "python", "flask"],
+      "description": [
+        "Part of the core team which works on the core product.",
+        "Revamped many important product UIs.",
+        "Implemented atomic design pattern in the UI.",
+        "Worked in adding user role based system to the product."
+      ]
+    },
+    {
       "designation": "Software Engineer",
       "company": "RetailMeNot Inc.",
       "logo": "retailmenot",
