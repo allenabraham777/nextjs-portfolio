@@ -38,12 +38,14 @@ const ProjectCard = ({ project }: Props) => {
           <Link
             href={project.demo}
             className="text-center px-3 py-1 rounded-md bg-white text-gray-700 font-semibold text-md cursor-pointer"
+            target="_blank"
           >
             Demo
           </Link>
           <Link
             href={project.source}
             className="text-center px-3 py-1 rounded-lg bg-white text-gray-700 font-semibold text-md cursor-pointer"
+            target="_blank"
           >
             Source
           </Link>

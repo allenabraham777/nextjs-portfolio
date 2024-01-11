@@ -18,10 +18,11 @@ const Hero = ({ socials, dark }: Props) => {
             Allen K Abraham
           </h1>
           <h1 className="text-gray-700 py-2 text-3xl font-bold dark:text-gray-200">
-            Web Developer
+            Fullstack Developer
           </h1>
           <p className="py-2 text-gray-600 max-w-[70%] m-auto dark:text-gray-400">
-            A Maker by heart and tinker with things to use it in my work.
+            Crafting Code, Experimenting with Tech: Integrating Innovation in
+            Every Project.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-2">
             {socials.map((social) => (

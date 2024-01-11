@@ -19,6 +19,13 @@
   ],
   "projects": [
     {
+      "name": "Stream As It",
+      "thumbnail": "stream",
+      "description": "A microservice based mvc web app for streaming in social media platforms from the browser. Made using <b>NextJS</b> <b>NestJS</b> <b>TailwindCSS</b> <b>PostgreSQL</b> <b>Websocket</b>",
+      "demo": "https://stream.projectwall.link",
+      "source": "https://github.com/allenabraham777/stream-as-it"
+    },
+    {
       "name": "Jot In It",
       "thumbnail": "jotinit",
       "description": "A chat app with live notification and update features made using <b>React</b> <b>Express</b> <b>MongoDB</b> and <b>socket.io</b>.",
@@ -52,13 +59,6 @@
       "description": "A simple web app to post upvote and comment content. Made using <b>Supabase (PostgreSQL)</b> <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> and <b>Tailwind</b>",
       "demo": "https://rd-nxt.vercel.app/",
       "source": "https://github.com/allenabraham777/rd-nxt"
-    },
-    {
-      "name": "React Rating",
-      "thumbnail": "rating",
-      "description": "A reusable star rating component made using <b>React</b> that could be used as a component in any React application",
-      "demo": "https://react-star-rating-component-9n4uotoxu.vercel.app",
-      "source": "https://github.com/allenabraham777/react-star-rating-component"
     }
   ],
   "skills": [
@@ -95,8 +95,8 @@
       "icon": "next"
     },
     {
-      "name": "GatsbyJS",
-      "icon": "gatsby"
+      "name": "NestJS",
+      "icon": "nest"
     },
     {
       "name": "ExpressJS",
@@ -130,17 +130,17 @@
   "experiences": [
     {
       "designation": "Product Engineer",
-      "company": "TheMathCompany Inc.",
-      "logo": "themathcompany",
+      "company": "Mathco",
+      "logo": "mathco",
       "from": "Jan 2023",
       "to": "Present",
-      "techStack": ["react", "js", "python", "flask"],
+      "techStack": ["react", "js", "python", "flask", "fastapi", "psql"],
       "description": [
         "Part of the core team which works on the core product.",
         "Revamped many important product UIs.",
         "Implemented atomic design pattern in the UI.",
         "Worked in adding user role based system to the product.",
-        "Worked on inhouse genai suite.",
+        "Built consumer layer from scratch for inhouse Generative Ai suite.",
         "Contributed in migration of UI to a new design system."
       ]
     },
