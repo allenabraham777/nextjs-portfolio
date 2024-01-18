@@ -26,11 +26,11 @@
       "source": "https://github.com/allenabraham777/stream-as-it"
     },
     {
-      "name": "Jot In It",
-      "thumbnail": "jotinit",
-      "description": "A chat app with live notification and update features made using <b>React</b> <b>Express</b> <b>MongoDB</b> and <b>socket.io</b>.",
-      "demo": "https://jotinit.tk",
-      "source": "https://github.com/allenabraham777/jot-in-it"
+      "name": "Chatch",
+      "thumbnail": "chatch",
+      "description": "A chat app with live update feature, made using <b>NextJS</b> <b>Shadcn</b> <b>Websocket</b> <b>MongoDB</b> and <b>Prisma</b>.",
+      "demo": "https://chatch.projectwall.link",
+      "source": "https://github.com/allenabraham777/chatch"
     },
     {
       "name": "Chipit",
