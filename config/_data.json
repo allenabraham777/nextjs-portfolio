@@ -33,6 +33,13 @@
       "source": "https://github.com/allenabraham777/chatch"
     },
     {
+      "name": "Streamzio",
+      "thumbnail": "streamzio",
+      "description": "A place you can livestream and chat with audience. Made using <b>TypeScript</b> <b>NextJS</b> <b>node-media-server</b> <b>Socket.io</b> <b>PostgreSQL</b> and <b>Tailwind</b>",
+      "demo": "https://live.projectwall.link",
+      "source": "https://github.com/allenabraham777/streamzio"
+    },
+    {
       "name": "Chipit",
       "thumbnail": "chipit",
       "description": "A simple webapp to compress your urls. Made using <b>React</b> <b>Express</b> and <b>MongoDB</b>.",
@@ -45,13 +52,6 @@
       "description": "A simple webapp to post and share short videos, comment on it and like it. Made using <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> <b>Sanity.io</b> and <b>Tailwind</b>",
       "demo": "https://tiny-vid.vercel.app",
       "source": "https://github.com/allenabraham777/tiny-vid"
-    },
-    {
-      "name": "NFT Marketplace",
-      "thumbnail": "nftmarket",
-      "description": "A place to publish and sell your NFTs. Made using <b>TypeScript</b> <b>NextJS</b> <b>Graphql</b> <b>Ether.js</b> <b>Hardhat</b> and <b>Tailwind</b>",
-      "demo": "https://nft-market-psi-six.vercel.app",
-      "source": "https://github.com/allenabraham777/nft-market"
     },
     {
       "name": "Post It",
