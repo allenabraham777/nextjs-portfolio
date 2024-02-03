@@ -75,20 +75,20 @@
       "icon": "js"
     },
     {
-      "name": "NodeJS",
-      "icon": "node"
-    },
-    {
       "name": "Typescript",
       "icon": "ts"
     },
     {
-      "name": "React",
-      "icon": "react"
+      "name": "Python",
+      "icon": "python"
     },
     {
-      "name": "Vue",
-      "icon": "vue"
+      "name": "NodeJS",
+      "icon": "node"
+    },
+    {
+      "name": "React",
+      "icon": "react"
     },
     {
       "name": "NextJS",
@@ -125,6 +125,38 @@
     {
       "name": "Webpack",
       "icon": "webpack"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "fastapi"
+    },
+    {
+      "name": "Socket.io",
+      "icon": "socketio"
+    },
+    {
+      "name": "Prisma",
+      "icon": "prisma"
+    },
+    {
+      "name": "WebRTC",
+      "icon": "webrtc"
+    },
+    {
+      "name": "Hapi",
+      "icon": "hapi"
+    },
+    {
+      "name": "Gatsby",
+      "icon": "gatsby"
+    },
+    {
+      "name": "Flask",
+      "icon": "flask"
+    },
+    {
+      "name": "Vue",
+      "icon": "vue"
     }
   ],
   "experiences": [
