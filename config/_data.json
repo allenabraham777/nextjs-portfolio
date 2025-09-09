@@ -161,11 +161,28 @@
   ],
   "experiences": [
     {
+      "designation": "Member of Technical Staff",
+      "company": "Redbrick AI",
+      "logo": "rbai",
+      "from": "May 2024",
+      "to": "Present",
+      "techStack": ["react", "ts", "gql", "python", "fastapi", "psql"],
+      "description": [
+        "Build and maintain application dashboards.",
+        "Develop and maintain in-house component libraries.",
+        "Implement the atomic design pattern in the UI.",
+        "Maintain the backend and update code based on requirements.",
+        "Built a super admin dashboard from scratch for improved maintainability of the app.",
+        "Contributed to the migration of the UI to a new design system.",
+        "Created a Progressive Web App (PWA) for the application, improving performance and offline access."
+      ]
+    },
+    {
       "designation": "Product Engineer",
       "company": "Mathco",
       "logo": "mathco",
       "from": "Jan 2023",
-      "to": "Present",
+      "to": "May 2024",
       "techStack": ["react", "js", "python", "flask", "fastapi", "psql"],
       "description": [
         "Part of the core team which works on the core product.",
